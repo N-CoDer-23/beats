@@ -1,0 +1,68 @@
+.banner_bot{
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.beatsbydre.com/content/dam/beats/web/home/2024/01/studiobudsplus-hero.jpg.large.2x.jpg") no-repeat center/cover;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.text__bannerbot{
+    margin-top: 22%;
+    font-size: 30px;
+    color: #fff;
+}
+.btn_bot{
+    padding: .8% 2%;
+    background: #fff;
+    color: #000;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+.btn_bot:hover{
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+
+
+/* MEDIA */
+@media screen and (max-width: 1512px) {
+    .text__bannerbot{
+        margin-top: 15%;
+        font-size: 30px;
+        color: #fff;
+    }
+.btn_bot{
+    padding: 1% 3%;
+}
+}
+@media screen and (max-width: 900px) {
+    .text__bannerbot{
+        margin-top: 40%;
+        font-size: 25px;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 600px) {
+.text__bannerbot{
+    margin-top: 60%;
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 500px) {
+.text__bannerbot{
+    margin-top: 75%;
+}
+}
+@media screen and (max-width: 400px) {
+.text__bannerbot{
+    margin-top: 95%;
+}
+.btn_bot{
+    padding: 2% 5%;
+    margin: 2% 0;
+}
+}
+
+/* MEDIA */
+

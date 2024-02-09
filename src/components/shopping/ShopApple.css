@@ -1,0 +1,45 @@
+.shopping{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.shopping h1{
+    margin: 3% 0;
+}
+.shoppnig__wrapper{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.shopping__card{
+    width: 350px;
+    padding: 3%;
+}
+.shopping__bottom{
+    margin-bottom: 6%;
+}
+.shopping__card img{
+    width: 70px;
+}
+.shopping__card h2{
+    margin: 2% 0;
+}
+
+
+@media screen and (max-width: 740px) {
+    .shoppnig__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+}
+@media screen and (max-width: 400px) {
+    .shopping__card{
+        font-size: 15px;
+    }
+    .shopping h1{
+        font-size: 25px;
+    }
+ 
+}

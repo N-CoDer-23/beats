@@ -1,0 +1,42 @@
+.phone__wrapper{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    padding: 1%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.phone__cart{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 14px #ddd;
+    padding: 2%;
+}
+.phone__cart img{
+    width: 100%;
+}
+.phone__cart p{
+    margin: 3% 0 5%;
+}
+
+
+@media screen and (max-width: 1369px) {
+    .phone__cart{
+        width: 350px;
+        height: 400px;
+    }
+ 
+}
+@media screen and (max-width: 1116px) {
+    .phone__cart{
+        width: 350px;
+        height: auto;
+        padding: 4%;
+    }
+    .phone__wrapper{
+        flex-wrap: wrap;
+        padding: 5%;
+    }
+}
