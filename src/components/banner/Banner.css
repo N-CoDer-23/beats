@@ -7,7 +7,6 @@
     .text__banner{
         margin-top: 22%;
         font-size: 30px;
-        /* position: absolute; */
     }
     .btn{
         padding: .8% 2%;
@@ -32,17 +31,15 @@
         padding: 3% 6%;
     }
 }
-@media screen and (max-width: 900px) {
 
-}
 @media screen and (max-width: 600px) {
     .text__banner{
         font-size: 20px;
     }
+
 }
 @media screen and (max-width: 500px) {
     .text__banner{
-        /* margin-top: 75%; */
         font-size: 20px;
         bottom: 0;
     }
