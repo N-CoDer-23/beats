@@ -8,7 +8,6 @@
 
 .single__img img{
     width: 100%;
-    border: 1px solid #000;
 }
 .single__img{
     width: 100%;
@@ -16,7 +15,7 @@
 }
 .selection{
     justify-content: center;
-    border: 1px solid red;
+
 }
 .selection2{
     display: none;
@@ -33,9 +32,7 @@
     width: 100%;
 }
 
-.single__text{
-    border: 1px solid #0bfc2f;
-}
+
 
 .single__btn{
     padding: 1% 7%;
@@ -75,14 +72,14 @@
     .selection__cart{
         width: 100%;
         height: 100px;
-        border: 1px solid #000;
+
     }
 }
 @media screen and (max-width: 900px) {
     .selection__cart{
         width: 100%;
         height: 100px;
-        border: 1px solid #000;
+
     }
     .selection__cart{
         width: 100%;
