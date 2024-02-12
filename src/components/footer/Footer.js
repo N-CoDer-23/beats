@@ -4,14 +4,11 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { IoLogoPlaystation } from "react-icons/io5";
 import { FaCcMastercard } from "react-icons/fa6";
-import { useLocation } from 'react-router-dom'
+
 import { SlEnvolopeLetter } from "react-icons/sl";
 
 function Footer() {
-  const {pathname} = useLocation()
-  if(pathname.includes("product")){
-      return <></>
-  }
+  
   return (
     <div className='container footer__wrapper' >
       <div className="footer__top__title">

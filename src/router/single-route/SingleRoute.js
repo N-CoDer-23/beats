@@ -48,8 +48,12 @@ function SingleRoute() {
         <div className="single__text">
         <h1>{oneItem.title}</h1>
         <br />
+        <h3>{oneItem.catagory}</h3>
+        <br />
         <h2>{oneItem.price}</h2>
         <br />
+        <br />
+        <p>Color: <b>Black</b> </p>
         <div className='color2'>
           <div className="cart__title blac"></div>
           <div className="cart__title red"></div>

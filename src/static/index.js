@@ -3,6 +3,7 @@ export const PRODUCTS = [
     {
         id: "f-1",
         title: "Beats Studio Pro",
+        catagory: "True Wireless NIconic Sound",
         price: "$349.99",
         url: ["https://www.beatsbydre.com/content/dam/beats/web/promotions/product-assets/color/studiopro-deepbrown-left.jpg"],
            sing1: [  "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/deep-brown/alt/brown-01-cnet.jpg",
@@ -15,6 +16,7 @@ export const PRODUCTS = [
     {
         id: "f-2",
         title: "Beats Studio Buds",
+        catagory: "True Wireless Noise Cancelling Earbuds",
         price: "$149.99",
         url: ["https://www.beatsbydre.com/content/dam/beats/web/promotions/product-assets/black/studiobuds-black-2.png"],
         sing1: [  "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/studio-buds/pdp/product-carousel/black/alt/thumbnails/black-01-studiobuds-thumb.jpg",
@@ -26,6 +28,7 @@ export const PRODUCTS = [
     {
         id: "f-3",
         title: "Beats Solo3 Wireless",
+        catagory: "True Wireless Iconic Sound",
         price: "$199.95",
         url: ["https://www.beatsbydre.com/content/dam/beats/web/promotions/product-assets/color/solo3-silver.jpg"],
         sing1: [  "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/pdp/product-carousel/silver/alt/thumbnails/silver-01-solo3-thumb.jpg",
