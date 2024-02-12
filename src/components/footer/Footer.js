@@ -13,7 +13,7 @@ function Footer() {
       return <></>
   }
   return (
-    <div className='footer__wrapper' >
+    <div className='container footer__wrapper' >
       <div className="footer__top__title">
         <div className="footer__top">
         <SlEnvolopeLetter />
