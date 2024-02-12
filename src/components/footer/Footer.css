@@ -23,6 +23,7 @@
 .footer__top input{
     padding: 1% 4%;
     border-radius: 20px;
+    border: 1px solid #000;
 }
 .footer__btn{
     padding: 2%;

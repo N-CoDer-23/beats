@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import { SiFampay } from "react-icons/si";
-import { FaCcVisa, FaMeta } from "react-icons/fa6";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
 import { IoLogoPlaystation } from "react-icons/io5";
 import { FaCcMastercard } from "react-icons/fa6";
 import { useLocation } from 'react-router-dom'
@@ -69,9 +69,10 @@ function Footer() {
           <div className="united">
             <p>United | Change</p>
           </div>
-          <SiFampay />
-        <FaCcVisa />
-        <FaMeta />
+          <br />
+          <h3>Follow Us</h3>
+          <FaSquareFacebook />
+          <FaYoutube />
         <IoLogoPlaystation />
         <FaCcMastercard />
         </div>

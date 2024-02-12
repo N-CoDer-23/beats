@@ -9,9 +9,42 @@ function SingleRoute() {
     const oneItem = PRODUCTS.find((el)=> el.id === parms.id)
   return (
     <div className='container singleRoute'>
+        <div className="selection">
+          <div className="selection__cart">
+          <img src={oneItem.sing1} alt="" />
+          </div>
+          <div className="selection__cart">
+          <img src={oneItem.sing2} alt="" />
+          </div>
+          <div className="selection__cart">
+          <img src={oneItem.sing3} alt="" />
+          </div>
+          <div className="selection__cart">
+          <img src={oneItem.sing4} alt="" />
+          </div>
+        </div>
         <div className="single__img">
         <img src={oneItem.url} alt="" />
         </div>
+        <div className="single__img2">
+        <img src={oneItem.url} alt="" />
+        </div>
+        <div className="selection2">
+          <div className="selection__cart">
+          <img src={oneItem.sing1} alt="" />
+          </div>
+          <div className="selection__cart">
+          <img src={oneItem.sing2} alt="" />
+          </div>
+          <div className="selection__cart">
+          <img src={oneItem.sing3} alt="" />
+          </div>
+          <div className="selection__cart">
+          <img src={oneItem.sing4} alt="" />
+          </div>
+        </div>
+
+
         <div className="single__text">
         <h1>{oneItem.title}</h1>
         <br />
@@ -24,6 +57,7 @@ function SingleRoute() {
           <div className="cart__title gray"></div>
         </div>
         <Link to={"/"}><button className='single__btn'>Home</button></Link>
+        <button className='single__btn'>Cart</button>
             
         </div>
     </div>

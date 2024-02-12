@@ -32,6 +32,15 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background: url("https://www.beatsbydre.com/content/dam/beats/web/home/ut/2024/02/motion-vibey-vs-ecom-us/studiopro-hp-hero-fallback.jpg.small.2x.jpg") no-repeat center/cover;
+        padding: 5%;
+    }
+
+}
 @media screen and (max-width: 600px) {
     .text__banner{
         font-size: 20px;
